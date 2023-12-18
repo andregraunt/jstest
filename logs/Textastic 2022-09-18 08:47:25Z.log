@@ -1,0 +1,169 @@
+20220918 11:47:25.225 ====== App Launched =======
+20220918 11:47:25.329 Loading external directories
+20220918 11:47:25.329 Found 3 external directories
+20220918 11:47:25.330 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20220918 11:47:25.340 ubiquityIdentityToken fetched in 0.011705s, token: (null)
+20220918 11:47:25.350 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20220918 11:47:25.350 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20220918 11:47:25.353 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20220918 11:47:25.353 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20220918 11:47:25.355 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20220918 11:47:25.356 Trying again to resolve 1 external directories.
+20220918 11:47:25.356 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20220918 11:47:25.532 applicationWillEnterForegroundNotification:
+20220918 11:47:25.553 Finished loading external directories
+20220918 11:47:25.616 loaded file script.js with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:47:25.620 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:47:25.641 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:47:25.654 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:47:25.658 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:47:25.661 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:47:25.664 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:47:25.668 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:48:29.156 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:48:29.172 save finished
+20220918 11:48:57.796 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220918 11:48:57.819 save finished
+20220918 11:50:32.367 applicationWillResignActiveNotification
+20220918 11:50:33.031 applicationDidEnterBackgroundNotification:
+20220918 11:53:30.486 applicationWillEnterForegroundNotification:
+20220918 11:53:30.878 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 11:53:30.879 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 11:53:30.881 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 11:53:30.882 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 11:53:30.883 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 11:53:30.885 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 11:53:30.886 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 11:53:30.887 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 11:53:30.888 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 11:56:18.931 applicationWillResignActiveNotification
+20220918 11:56:20.884 applicationDidEnterBackgroundNotification:
+20220918 12:53:41.152 applicationWillEnterForegroundNotification:
+20220918 12:53:41.658 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:53:41.658 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:53:41.659 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:53:41.660 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:53:41.661 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:53:41.662 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:53:41.663 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:53:41.664 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:53:41.665 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:55:05.421 applicationWillResignActiveNotification
+20220918 12:55:07.059 applicationDidEnterBackgroundNotification:
+20220918 12:56:49.833 applicationWillEnterForegroundNotification:
+20220918 12:56:50.264 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:56:50.266 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:56:50.268 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:56:50.269 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:56:50.270 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:56:50.271 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:56:50.272 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:56:50.274 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:56:50.274 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:58:29.666 applicationWillResignActiveNotification
+20220918 12:58:32.973 applicationDidEnterBackgroundNotification:
+20220918 12:58:53.905 applicationWillEnterForegroundNotification:
+20220918 12:58:54.240 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:58:54.242 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:58:54.244 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:58:54.246 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:58:54.248 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:58:54.248 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:58:54.251 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:58:54.253 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:58:54.254 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 12:59:35.764 applicationWillResignActiveNotification
+20220918 12:59:38.608 applicationDidEnterBackgroundNotification:
+20220918 13:00:43.533 applicationWillEnterForegroundNotification:
+20220918 13:00:43.843 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:00:43.843 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:00:43.844 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:00:43.845 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:00:43.846 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:00:43.847 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:00:43.848 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:00:43.849 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:00:43.849 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:00:45.199 applicationWillResignActiveNotification
+20220918 13:01:46.077 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:01:46.079 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:01:46.080 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:01:46.080 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:01:46.081 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:01:46.082 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:01:46.083 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:01:46.084 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:01:46.085 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:01:54.074 applicationWillResignActiveNotification
+20220918 13:01:57.504 applicationDidEnterBackgroundNotification:
+20220918 13:05:46.873 applicationWillEnterForegroundNotification:
+20220918 13:05:47.190 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:05:47.191 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:05:47.193 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:05:47.195 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:05:47.196 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:05:47.198 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:05:47.199 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:05:47.201 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:05:47.202 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:06:00.636 applicationWillResignActiveNotification
+20220918 13:06:02.284 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:06:02.288 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:06:02.291 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:06:02.294 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:06:02.296 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:06:02.297 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:06:02.298 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:06:02.301 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:06:02.302 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:08:28.570 applicationWillResignActiveNotification
+20220918 13:08:29.160 applicationDidEnterBackgroundNotification:
+20220918 13:09:07.348 applicationWillEnterForegroundNotification:
+20220918 13:09:07.652 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:09:07.653 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:09:07.654 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:09:07.654 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:09:07.655 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:09:07.657 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:09:07.659 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:09:07.659 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:09:07.660 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220918 13:09:10.370 applicationWillResignActiveNotification
+20220918 13:09:11.775 applicationDidEnterBackgroundNotification:
+20220919 11:20:47.494 ====== App Launched =======
+20220919 11:20:47.585 Loading external directories
+20220919 11:20:47.585 Found 3 external directories
+20220919 11:20:47.587 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20220919 11:20:47.594 ubiquityIdentityToken fetched in 0.009080s, token: (null)
+20220919 11:20:47.608 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20220919 11:20:47.608 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20220919 11:20:47.611 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20220919 11:20:47.611 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20220919 11:20:47.614 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20220919 11:20:47.614 Trying again to resolve 1 external directories.
+20220919 11:20:47.614 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20220919 11:20:47.758 applicationWillEnterForegroundNotification:
+20220919 11:20:47.779 Finished loading external directories
+20220919 11:20:47.837 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220919 11:20:47.839 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220919 11:20:47.852 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220919 11:20:47.867 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220919 11:20:47.873 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220919 11:20:47.877 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220919 11:20:47.883 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220919 11:20:47.885 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220919 11:20:47.890 loaded file script.js with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220919 11:21:14.028 applicationWillResignActiveNotification
+20220919 11:21:15.672 applicationDidEnterBackgroundNotification:
+20220919 11:21:27.517 applicationWillEnterForegroundNotification:
+20220919 11:21:27.835 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220919 11:21:27.840 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220919 11:21:27.841 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220919 11:21:27.843 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220919 11:21:27.845 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220919 11:21:27.846 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220919 11:21:27.847 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220919 11:21:27.849 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220919 11:21:27.850 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220919 11:21:39.122 applicationWillResignActiveNotification
+20220919 11:21:40.678 applicationDidEnterBackgroundNotification:

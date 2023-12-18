@@ -1,0 +1,19 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	background: red;
+}
+
+
+#root {
+	margin: 40px auto;
+	max-width: 1000px;
+	background: black;
+	padding: 16px;
+}
+
+.test{
+	width: 100px;
+	height: 100px;
+	background: orange;
+}

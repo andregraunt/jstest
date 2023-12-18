@@ -1,0 +1,26 @@
+20220916 12:02:39.445 applicationWillEnterForegroundNotification:
+20220916 12:02:40.021 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:02:40.026 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:02:40.026 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:02:40.031 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:02:40.035 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:02:40.036 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:02:49.668 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 12:03:55.619 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 12:05:10.836 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 12:06:25.468 save finished
+20220916 12:07:44.052 applicationWillResignActiveNotification
+20220916 12:07:44.643 applicationDidEnterBackgroundNotification:
+20220916 12:10:08.825 applicationWillEnterForegroundNotification:
+20220916 12:10:09.041 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:10:09.042 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:10:09.042 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:10:09.043 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:10:09.044 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:10:09.044 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:10:09.045 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:10:09.045 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 12:10:32.965 save finished
+20220916 12:10:36.758 loaded file script.js with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 12:11:34.242 applicationWillResignActiveNotification
+20220916 12:11:34.847 applicationDidEnterBackgroundNotification:

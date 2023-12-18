@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>gcd</title>
+</head>
+
+<body>
+	<script>
+		
+		function gcd(a, b) {
+			if (a==b) {
+			return (a);
+			//alert(a);
+			}
+		   else if (a > b) {
+		   	
+			   return gcd(a-b, b);
+			}
+			else {
+				return gcd(a, b-a);
+			}
+			
+			
+		
+			
+		};
+		console.log(gcd(8,10));
+		//let time {
+			//setInterval(gcd, 2000);
+	//	};
+		document.write(gcd(8,10)+'</br>');
+		document.write(gcd(12,18)+'</br>');
+		document.write(gcd(35,25)+'</br>');
+		document.write(gcd(179,235)+'</br>');
+		
+		//setInterval(alert(gcd(12,18)), 6000);
+		
+	
+		
+	</script>
+</body>
+</html>

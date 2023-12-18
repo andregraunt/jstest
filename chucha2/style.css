@@ -1,0 +1,26 @@
+body {
+  background: lavender; 
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 50px 60px;
+  border: none;
+  outline: none;
+  background: #29293a;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: auto;
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+#button {
+  margin: auto;
+}

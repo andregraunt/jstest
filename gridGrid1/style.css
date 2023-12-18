@@ -1,0 +1,67 @@
+ html,
+ body{
+  height: 100%;
+  margin: 5px;
+  background-color: beige;
+ }
+ .grid * {
+   padding: 10px 15px;
+   /* border: 3px solid ; */
+   text-align: center;
+   font-size: 18px;
+   font-family: sans-serif;
+   border-radius: 25px;
+   color: black;
+   
+ }
+ .grid {
+  /* opacity: 0.7; */
+  height: 100%;
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-areas: 
+   "header header"
+   " main main "
+   "footer footer";
+ }
+ header{
+  text-align: center;
+  grid-area: header;
+  background-color: white;
+  border: 3px solid  rgb(36, 217, 249);
+  box-shadow: 10px 10px 25px rgb(36, 217, 249);
+  opacity: 60% ;
+  width: 80%;
+  margin-left: 8%;
+ }
+ main{
+  grid-area: main;
+  background-color: white;
+  border: 3px solid rgb(209, 231, 252);
+  box-shadow: 10px 10px 30px rgb(36, 217, 249);
+ }
+ footer{
+  grid-area: footer;
+  border: 3px solid rgba(81, 244, 187, 0.581);
+ width: 80%;
+ margin-left: 8%;
+ }
+ #comment{
+ 
+  width: 80%;
+  text-align: right;
+ }
+ #comment2{
+ 
+  width: 80%;
+  text-align: right;
+ }
+ 
+  img{
+		width: 80%;
+  }
+
+ 
+

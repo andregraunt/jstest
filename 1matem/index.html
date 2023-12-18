@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Signs Practice - JSitor</title>
+<link rel="stylesheet" type="text/css" href="./style.css"/>
+<script src="./script.js" ></script>
+</head>
+
+<body>
+	<div id="app" class="container text-center mt-4">
+  <div v-if="problem">
+    <span class="tile">{{problem.a}}</span>
+    <span class="tile">{{problem.op.friendly}}</span>
+    <span class="tile">{{problem.b}}</span>
+  </div>
+  <div class="mt-4">
+    <input v-model="guess" class="form-control d-inline-block" style="max-width: 400px; font-size: 3em; text-align: center" @keypress.enter="onGuessEnter">
+  </div>
+  <simple-timer v-if="startTime" v-model="startTime" class="mt-4" :start-time="startTime" :end-time="startTime+30000" @done="onOutOfTime">
+</div>
+<script type="module">
+  import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js'
+</script>
+
+<!--script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>-->
+</body>
+</html>

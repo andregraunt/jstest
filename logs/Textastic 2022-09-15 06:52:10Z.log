@@ -1,0 +1,35 @@
+20220915 09:52:10.074 ====== App Launched =======
+20220916 08:56:08.591 ====== App Launched =======
+20220916 08:56:08.693 Loading external directories
+20220916 08:56:08.693 Found 3 external directories
+20220916 08:56:08.696 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20220916 08:56:08.697 ubiquityIdentityToken fetched in 0.003896s, token: (null)
+20220916 08:56:08.728 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20220916 08:56:08.728 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20220916 08:56:08.732 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20220916 08:56:08.732 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20220916 08:56:08.739 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20220916 08:56:08.739 Trying again to resolve 1 external directories.
+20220916 08:56:08.739 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20220916 08:56:08.870 applicationWillEnterForegroundNotification:
+20220916 08:56:08.889 Finished loading external directories
+20220916 08:56:08.930 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 08:56:08.933 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 08:56:08.936 loaded file script.js with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 08:56:08.954 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 08:56:37.115 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 08:57:40.589 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 08:58:13.359 loaded file script.js with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 09:00:22.656 applicationWillResignActiveNotification
+20220916 09:00:24.290 applicationDidEnterBackgroundNotification:
+20220916 09:11:28.859 applicationWillEnterForegroundNotification:
+20220916 09:11:29.231 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 09:11:29.231 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 09:11:29.232 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 09:11:29.233 presentedItemDidMoveToURL was called for file "chucha3/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 09:11:29.233 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 09:11:29.234 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20220916 09:12:04.938 save finished
+20220916 09:12:10.786 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220916 09:15:17.188 applicationWillResignActiveNotification
+20220916 09:15:17.892 applicationDidEnterBackgroundNotification:

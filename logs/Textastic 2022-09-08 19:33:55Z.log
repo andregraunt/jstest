@@ -1,0 +1,20 @@
+20220908 22:33:55.591 ====== App Launched =======
+20220908 22:33:55.668 Loading external directories
+20220908 22:33:55.668 Found 3 external directories
+20220908 22:33:55.669 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20220908 22:33:55.672 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20220908 22:33:55.672 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20220908 22:33:55.673 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20220908 22:33:55.674 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20220908 22:33:55.676 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20220908 22:33:55.676 Trying again to resolve 1 external directories.
+20220908 22:33:55.676 ubiquityIdentityToken fetched in 0.008307s, token: (null)
+20220908 22:33:55.677 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20220908 22:33:55.759 applicationWillEnterForegroundNotification:
+20220908 22:33:55.770 Finished loading external directories
+20220908 22:33:55.808 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220908 22:33:55.811 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220908 22:33:55.827 loaded file script.js with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220908 22:33:55.832 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20220908 22:34:06.642 applicationWillResignActiveNotification
+20220908 22:34:07.583 applicationDidEnterBackgroundNotification:

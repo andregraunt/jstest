@@ -1,0 +1,51 @@
+20221215 03:36:11.882 ====== App Launched =======
+20221215 03:36:11.973 Loading external directories
+20221215 03:36:11.973 Found 3 external directories
+20221215 03:36:11.974 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20221215 03:36:11.975 ubiquityIdentityToken fetched in 0.001846s, token: (null)
+20221215 03:36:11.977 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221215 03:36:11.977 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20221215 03:36:11.979 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20221215 03:36:11.979 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20221215 03:36:11.981 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20221215 03:36:11.981 Trying again to resolve 1 external directories.
+20221215 03:36:11.981 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221215 03:36:12.144 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:12.196 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=12305}
+20221215 03:36:12.249 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=31650}
+20221215 03:36:12.321 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:12.342 applicationWillEnterForegroundNotification:
+20221215 03:36:12.372 Finished loading external directories
+20221215 03:36:12.494 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221215 03:36:12.542 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:12.594 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=12305}
+20221215 03:36:12.648 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=31650}
+20221215 03:36:12.698 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:12.745 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=31650}
+20221215 03:36:12.753 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221215 03:36:12.810 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:12.860 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=12305}
+20221215 03:36:12.909 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=31650}
+20221215 03:36:12.961 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:13.010 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=31650}
+20221215 03:36:13.011 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221215 03:36:13.066 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:13.117 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=12305}
+20221215 03:36:13.168 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=31650}
+20221215 03:36:13.219 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:13.270 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=31650}
+20221215 03:36:13.306 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221215 03:36:13.368 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:13.419 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=12305}
+20221215 03:36:13.466 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=31650}
+20221215 03:36:13.517 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=27156}
+20221215 03:36:13.568 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSFileProviderErrorDomain Code=-1005 "The file doesn’t exist." UserInfo={NSFileProviderErrorNonExistentItemIdentifier=did=31650}
+20221215 03:36:13.600 loaded file БАГ-РЕПОРТ.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221215 03:36:31.035 applicationWillResignActiveNotification
+20221215 03:36:31.975 applicationDidEnterBackgroundNotification:
+20221215 03:38:39.092 applicationWillEnterForegroundNotification:
+20221215 03:38:39.391 presentedItemDidMoveToURL was called for file "Грокаем алгоритмы/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221215 03:38:39.393 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221215 03:38:39.400 presentedItemDidMoveToURL was called for file "coma.su 2/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221215 03:38:40.309 applicationWillResignActiveNotification
+20221215 03:38:41.278 applicationDidEnterBackgroundNotification:

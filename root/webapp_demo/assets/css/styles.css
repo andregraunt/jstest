@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Maven Pro Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MavenPro-Regular.eot');
+    src: local('Maven Pro Regular'), local('Maven Pro Regular'), url('../fonts/MavenPro-Regular.ttf') format('truetype'), url('../fonts/MavenPro-Regular.eot') format('embedded-opentype'), url('../fonts/MavenPro-Regular.woff') format('woff');
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Maven Pro Regular";
+    color: rgb(96, 130, 187);
+}
+
+h1 {
+    margin: 10px 0 20px 0;
+    font-size: 23px;
+}
+
+.container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 320px;
+    margin: 10px auto;
+}
+
+.command {
+    cursor: pointer;
+    font-family: "Maven Pro Regular";
+    background-color: #42b72a;
+    padding: 7px 10px 8px 10px;
+    color: #fff;
+    border: 1px solid #42b72a;
+    border-radius: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.caption {
+    display: block;
+}
+
+.desc {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+#footer {
+    font-size: 13px;
+    margin-top: 60px;
+}

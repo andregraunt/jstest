@@ -1,0 +1,72 @@
+20221213 12:17:43.016 ====== App Launched =======
+20221213 12:17:43.093 Loading external directories
+20221213 12:17:43.093 Found 3 external directories
+20221213 12:17:43.094 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20221213 12:17:43.096 ubiquityIdentityToken fetched in 0.002892s, token: (null)
+20221213 12:17:43.097 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221213 12:17:43.097 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20221213 12:17:43.100 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20221213 12:17:43.100 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20221213 12:17:43.102 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20221213 12:17:43.102 Trying again to resolve 1 external directories.
+20221213 12:17:43.103 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221213 12:17:43.234 applicationWillEnterForegroundNotification:
+20221213 12:17:43.253 Finished loading external directories
+20221213 12:17:43.371 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221213 12:17:43.392 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:17:43.404 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:17:43.414 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:17:43.417 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:17:43.442 loaded file Как выглядит джейлбрейк iPhone в 2022 году. Взлом вышел на новый уровень.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:17:43.469 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:12.296 applicationWillResignActiveNotification
+20221213 12:18:13.343 applicationDidEnterBackgroundNotification:
+20221213 12:18:30.259 ====== App Launched =======
+20221213 12:18:30.305 Loading external directories
+20221213 12:18:30.305 Found 3 external directories
+20221213 12:18:30.306 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20221213 12:18:30.308 ubiquityIdentityToken fetched in 0.003243s, token: (null)
+20221213 12:18:30.308 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221213 12:18:30.309 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20221213 12:18:30.312 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20221213 12:18:30.312 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20221213 12:18:30.315 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20221213 12:18:30.315 Trying again to resolve 1 external directories.
+20221213 12:18:30.315 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221213 12:18:30.412 applicationWillEnterForegroundNotification:
+20221213 12:18:30.429 Finished loading external directories
+20221213 12:18:30.586 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:30.599 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221213 12:18:30.621 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:30.626 loaded file Как выглядит джейлбрейк iPhone в 2022 году. Взлом вышел на новый уровень.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:30.630 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:30.635 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:30.641 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:30.697 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:37.029 applicationWillResignActiveNotification
+20221213 12:18:38.022 applicationDidEnterBackgroundNotification:
+20221213 12:18:40.725 ====== App Launched =======
+20221213 12:18:40.772 Loading external directories
+20221213 12:18:40.772 Found 3 external directories
+20221213 12:18:40.773 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20221213 12:18:40.775 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221213 12:18:40.775 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20221213 12:18:40.776 ubiquityIdentityToken fetched in 0.004231s, token: (null)
+20221213 12:18:40.778 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20221213 12:18:40.778 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20221213 12:18:40.781 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20221213 12:18:40.781 Trying again to resolve 1 external directories.
+20221213 12:18:40.781 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221213 12:18:40.879 applicationWillEnterForegroundNotification:
+20221213 12:18:40.896 Finished loading external directories
+20221213 12:18:41.093 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221213 12:18:41.123 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:41.131 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:41.137 loaded file Как выглядит джейлбрейк iPhone в 2022 году. Взлом вышел на новый уровень.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:41.142 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:41.150 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:41.166 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:41.194 loaded file Sratim.Tv | סרטים - הארי פוטר ואבן החכמים - מדובב לצפייה ישירה ולהורדה.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221213 12:18:41.204 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221213 12:18:55.076 applicationWillResignActiveNotification
+20221213 12:18:55.886 applicationDidEnterBackgroundNotification:

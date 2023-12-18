@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>js1</title>
+</head>
+
+<body>
+	<script  type="text/javascript">
+		
+		function maskify(cc) {
+  cc = cc.split("");
+  for(var i = 0; i < cc.length - 4; i++){
+    cc[i] = "#";
+}
+
+cc = cc.join("");
+return cc
+}
+
+		console.log(maskify("123456789"));
+		
+		
+		
+		
+	</script>
+</body>
+</html>

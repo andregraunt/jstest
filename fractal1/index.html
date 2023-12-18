@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>fractal</title>
+</head>
+
+<body>
+	
+ <script  type="text/javascript">
+	 function fac(n) {
+	 	if (n<0) return
+		if (n===1) return n 
+		return n * fac(n-1)
+	 }
+	 document.write(fac(5) + '</br>')
+	 
+	 for (var i = 0; i < 10; i++) {
+	 var a = Math.floor(Math.random()*11)
+	 //for (var i = 0; i < 10; i++) {
+	 	document.write(a+ ' ')
+	 }
+	 //document.write(a);
+ </script>
+</body>
+</html>

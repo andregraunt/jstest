@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <style type="text/css" media="print">
+        .noprint {
+            display: none
+        }
+        
+        .print {
+            display: block !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <header class="el-header noprint">
+            <div class="icon-btns">
+                <i class="icon-list" @click="changeLeftMenu"></i>
+                <i class="icon-skip_previous" v-bind:class="{'disabled': currentPage == 1}" @click="changeCurrentPage('first')"></i>
+                <i class="icon-play_arrow prev-icon" v-bind:class="{'disabled': currentPage == 1}" @click="changeCurrentPage('prev')"></i>
+                <i class="icon-play_arrow" v-bind:class="{'disabled': currentPage == pageNum}" @click="changeCurrentPage('next')"></i>
+                <i class="icon-skip_next" v-bind:class="{'disabled': currentPage == pageNum}" @click="changeCurrentPage('last')"></i>
+                <select v-model="currentPage">
+                    <option v-for="page in pageNum" v-bind:value="page">page {{ page }}</option>
+                </select>
+                <i class="icon-zoom_in" v-bind:class="{'disabled': zoomNum == 2}" @click="modifyZoom('in')"></i>
+                <select v-model="zoomNum">
+                    <option value="0.5">50%</option>
+                    <option value="0.6">60%</option>
+                    <option value="0.7">70%</option>
+                    <option value="0.8">80%</option>
+                    <option value="0.9">90%</option>
+                    <option value="1.0" selected>100%</option>
+                    <option value="1.1">110%</option>
+                    <option value="1.2">120%</option>
+                    <option value="1.3">130%</option>
+                    <option value="1.4">140%</option>
+                    <option value="1.5">150%</option>
+                    <option value="1.6">160%</option>
+                    <option value="1.7">170%</option>
+                    <option value="1.8">180%</option>
+                    <option value="1.9">190%</option>
+                    <option value="2.0">200%</option>
+                </select>
+                <i class="icon-zoom_out" v-bind:class="{'disabled': zoomNum == 0.5}" @click="modifyZoom('out')"></i>
+                <i class="icon-format_align_left" @click="textAlign = 'left'"></i>
+                <i class="icon-format_align_center" @click="textAlign = 'center'"></i>
+                <i class="icon-format_align_right" @click="textAlign = 'right'"></i>
+                <i class="icon-print" @click="window.print()"></i>
+            </div>
+        </header>
+
+        <aside class="noprint" width="240px" v-show="ifMenuShow">
+            <nav class="tabNav">
+                <ul>
+                    <li v-bind:class="{ 'curr': currentNav == 0 }" @click="currentNav = 0">Page</li>
+                    <li v-bind:class="{ 'curr': currentNav == 1 }" @click="currentNav = 1">Bookmark</li>
+                </ul>
+
+                <div class="clear"></div>
+            </nav>
+
+            <div class="tab-conent scrollbar" v-bind:style="{ height: asideHeight + 'px' }">
+
+            <section v-show="currentNav == 0">
+                <ul class="page-menu">
+                    <li v-for="page in pageNum" v-bind:class="{ 'curr': currentPage == page }" @click="changePage(page)"><i class="icon-file-text2"></i> page {{ page }}</li>
+                </ul>
+            </section>
+
+            <section v-show="currentNav == 1">
+                <ul class="page-menu">
+                    <li v-for="page in pageNum" v-bind:class="{ 'curr': currentPage == page }" @click="changePage(page)"><i class="icon-turned_in_not"></i> Bookmark {{ page }}</li>
+                </ul>
+            </section>
+        </div>
+
+        </aside>
+        <div class="main scrollbar noprint"  v-bind:style="{ height: mainHeight + 'px' }" v-bind:class="{ 'mainLeftM': ifMenuShow, 'aleft': textAlign === 'left','acenter': textAlign === 'center','aright': textAlign === 'right'}">
+            <div class="conent" v-html="pageContent" v-bind:style="zoomStyle"></div>
+
+            <div class="clear"></div>
+        </div>
+
+        <!--专门只为打印的内容-->
+        <div class="conent print" style="display:none" v-html="pageContent"></div>
+    </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="js/vue.min.js"></script>
+<script>
+
+var app = new Vue({
+        el: '#app',
+        data: function() {
+            return {
+                // visible: false,
+                isCollapse: false,
+                currentNav: 0,
+                activeName2: 'first',
+                pageNum: 1, 
+                currentPage: 1,
+                pageContent: '',
+                asideHeight: 300,
+                mainHeight: 300,
+                ifMenuShow: true,
+                zoomNum: '1.0',
+                textAlign: 'left',
+                zoomStyle: {},
+                pageDatas: ['<div style="position:absolute;top:0.000000px;left:0.000000px"><nobr><img height="1008.000000" width="1344.000000" src ="bgimg/bg00001.jpg"/></nobr></div><div style="position:absolute;top:19.299072px;left:28.710243px"><nobr><table height="948.775635px" width="1290.168213px" bordercolor="black" border="0"><tr><td height = "95.264587" width="160.149536" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:64.876320px"><nobr>שישי – 6 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:69.297462px"><nobr>(11:45) </nobr></span></p></span></td><td height = "95.264587" width="148.317780" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:263.771240px"><nobr>חמישי – 5 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:273.939056px"><nobr>(13:30) </nobr></span></p></span></td><td height = "95.264587" width="151.714264" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:467.209198px"><nobr>רביעי – 4 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:473.457092px"><nobr>(13:30) </nobr></span></p></span></td><td height = "95.264587" width="158.883820" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:25.860922px;left:675.441284px"><nobr>שלישי -3 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:680.362427px"><nobr>(12:45) </nobr></span></p></span></td><td height = "95.264587" width="157.457947" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:895.172546px"><nobr>שני – 2 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:891.753723px"><nobr>(13:30) </nobr></span></p></span></td><td height = "95.264587" width="158.943970" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:1093.603882px"><nobr>ראשון – 1 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:1102.018188px"><nobr>(13:30) </nobr></span></p></span></td><td height = "95.264587" width="32.158752" rowspan="1" colspan="1"></td></tr><tr><td height = "142.101013" width="160.149536" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:133.874268px;left:79.924255px"><nobr>קריאה </nobr></span></p><p dir="rtl"><span style="position:absolute;top:157.874268px;left:51.651825px"><nobr>שער האותיות </nobr></span></p></span></td><td height = "142.101013" width="148.317780" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:133.874268px;left:290.413940px"><nobr>תורה </nobr></span></p></span></td><td height = "142.101013" width="151.714264" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:133.874268px;left:482.010132px"><nobr>אומנות </nobr></span></p><p dir="rtl"><span style="position:absolute;top:157.874268px;left:468.544861px"><nobr>צבעי פנדה </nobr></span></p></span></td><td height = "142.101013" width="158.883820" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:133.874268px;left:691.656006px"><nobr>קריאה </nobr></span></p><p dir="rtl"><span style="position:absolute;top:157.874268px;left:663.383362px"><nobr>שער האותיות </nobr></span></p></span></td><td height = "142.101013" width="157.457947" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:133.874268px;left:908.228516px"><nobr>תורה </nobr></span></p></span></td><td height = "142.101013" width="158.943970" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:133.874268px;left:1113.318481px"><nobr>קריאה </nobr></span></p><p dir="rtl"><span style="position:absolute;top:157.874268px;left:1085.045898px"><nobr>שער האותיות </nobr></span></p></span></td><td height = "142.101013" width="32.158752" rowspan="1" colspan="1"><span style="font-family:Helvetica;font-size:15.999998px;font-style:normal;font-weight:normal;color:#000000;"><p><span style="position:absolute;top:150.151611px;left:1263.672363px"><nobr>1 </nobr></span></p></span></td></tr><tr><td height = "151.254944" width="160.149536" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:323.314240px;left:81.057968px"><nobr>חשבון </nobr></span></p><p dir="rtl"><span style="position:absolute;top:348.594238px;left:33.864651px"><nobr>שבילים 1 + ערכה </nobr></span></p></span></td><td height = "151.254944" width="148.317780" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:323.314240px;left:285.235779px"><nobr>קריאה </nobr></span></p><p dir="rtl"><span style="position:absolute;top:347.314240px;left:256.963379px"><nobr>שער האותיות </nobr></span></p></span></td><td height = "151.254944" width="151.714264" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:323.314240px;left:484.084320px"><nobr>ספורט </nobr></span></p><p dir="rtl"><span style="position:absolute;top:348.594238px;left:424.203705px"><nobr>חולצה לבנה/אפורה + </nobr></span></p><p dir="rtl"><span style="position:absolute;top:373.874237px;left:465.708130px"><nobr>נעלי ספורט </nobr></span></p></span></td><td height = "151.254944" width="158.883820" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:323.314240px;left:673.649780px"><nobr>גיאומטריה </nobr></span></p><p dir="rtl"><span style="position:absolute;top:348.594238px;left:634.199524px"><nobr>שבילים גיאומטריה + </nobr></span></p><p dir="rtl"><span style="position:absolute;top:373.874237px;left:696.594238px"><nobr>ערכה </nobr></span></p></span></td><td height = "151.254944" width="157.457947" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:323.314240px;left:903.050537px"><nobr>קריאה </nobr></span></p><p dir="rtl"><span style="position:absolute;top:347.314240px;left:874.778076px"><nobr>שער האותיות </nobr></span></p></span></td><td height = "151.254944" width="158.943970" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:323.314240px;left:1112.645508px"><nobr>ספורט </nobr></span></p><p dir="rtl"><span style="position:absolute;top:348.594238px;left:1052.764893px"><nobr>חולצה לבנה/אפורה + </nobr></span></p><p dir="rtl"><span style="position:absolute;top:373.874237px;left:1094.269409px"><nobr>נעלי ספורט </nobr></span></p></span></td><td height = "151.254944" width="32.158752" rowspan="1" colspan="1"><span style="font-family:Helvetica;font-size:15.999998px;font-style:normal;font-weight:normal;color:#000000;"><p><span style="position:absolute;top:339.591583px;left:1263.672363px"><nobr>2 </nobr></span></p></span></td></tr><tr><td height = "163.227356" width="160.149536" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:523.634216px;left:48.717510px"><nobr>פרשת השבוע </nobr></span></p></span></td><td height = "163.227356" width="148.317780" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:524.914307px;left:281.982819px"><nobr>אנגלית </nobr></span><span style="position:absolute;top:547.911621px;left:277.811249px"><nobr>HEROES </nobr></span></p></span></td><td height = "163.227356" width="151.714264" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:524.914307px;left:488.442932px"><nobr>הלכה </nobr></span></p><p dir="rtl"><span style="position:absolute;top:550.194214px;left:517.458252px"><nobr>הולכים עם </nobr></span></p><p dir="rtl"><span style="position:absolute;top:575.794189px;left:533.392151px"><nobr>ההלכה </nobr></span></p></span></td><td height = "163.227356" width="158.883820" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:524.914307px;left:692.789551px"><nobr>חשבון </nobr></span></p><p dir="rtl"><span style="position:absolute;top:550.194214px;left:645.596375px"><nobr>שבילים 1 + ערכה </nobr></span></p></span></td><td height = "163.227356" width="157.457947" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:524.914307px;left:902.471436px"><nobr>מדעים </nobr></span></p><p dir="rtl"><span style="position:absolute;top:550.194214px;left:918.208740px"><nobr>החושים שלנו </nobr></span></p><p dir="rtl"><span style="position:absolute;top:575.794189px;left:929.299255px"><nobr>+ שקף ירוק </nobr></span></p></span></td><td height = "163.227356" width="158.943970" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:524.914307px;left:1112.748535px"><nobr>מדעים </nobr></span></p><p dir="rtl"><span style="position:absolute;top:550.194214px;left:1117.486084px"><nobr>החושים שלנו </nobr></span></p><p dir="rtl"><span style="position:absolute;top:575.794189px;left:1128.576538px"><nobr>+ שקף ירוק </nobr></span></p></span></td><td height = "163.227356" width="32.158752" rowspan="1" colspan="1"><span style="font-family:Helvetica;font-size:15.999998px;font-style:normal;font-weight:normal;color:#000000;"><p><span style="position:absolute;top:541.191650px;left:1263.672363px"><nobr>3 </nobr></span></p></span></td></tr><tr><td height = "159.733826" width="160.149536" rowspan="1" colspan="1"></td><td height = "159.733826" width="148.317780" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:741.234253px;left:284.576202px"><nobr>כתיבה </nobr></span></p></span></td><td height = "159.733826" width="151.714264" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:742.514221px;left:487.130371px"><nobr>משנה </nobr></span></p><p dir="rtl"><span style="position:absolute;top:768.114258px;left:544.013489px"><nobr>משניות </nobr></span></p><p dir="rtl"><span style="position:absolute;top:793.394287px;left:543.959717px"><nobr>בשת"ף </nobr></span></p></span></td><td height = "159.733826" width="158.883820" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:742.514221px;left:669.867249px"><nobr>כישורי חיים </nobr></span><span style="position:absolute;top:766.514221px;left:680.509399px"><nobr>שקף ורוד </nobr></span></p></span></td><td height = "159.733826" width="157.457947" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:742.514221px;left:904.184082px"><nobr>חשבון </nobr></span></p><p dir="rtl"><span style="position:absolute;top:768.114258px;left:856.990967px"><nobr>שבילים 1 + ערכה </nobr></span></p></span></td><td height = "159.733826" width="158.943970" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:742.514221px;left:1110.072021px"><nobr>אנגלית </nobr></span><span style="position:absolute;top:765.511536px;left:1105.893799px"><nobr>HEROES </nobr></span></p></span></td><td height = "159.733826" width="32.158752" rowspan="1" colspan="1"><span style="font-family:Helvetica;font-size:15.999998px;font-style:normal;font-weight:normal;color:#000000;"><p><span style="position:absolute;top:759.111572px;left:1263.672363px"><nobr>4 </nobr></span></p></span></td></tr></table></nobr></div>','<div style="position:absolute;top:0.000000px;left:0.000000px"><nobr><img height="1008.000000" width="1344.000000" src ="bgimg/bg00002.jpg"/></nobr></div><div style="position:absolute;top:19.299072px;left:28.710243px"><nobr><table height="310.869049px" width="1290.168213px" bordercolor="black" border="0"><tr><td height = "87.409973" width="160.149536" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:64.876320px"><nobr>שישי – 6 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:69.297462px"><nobr>(11:45) </nobr></span></p></span></td><td height = "87.409973" width="148.317780" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:263.771240px"><nobr>חמישי – 5 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:273.939056px"><nobr>(13:30) </nobr></span></p></span></td><td height = "87.409973" width="151.714264" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:467.209198px"><nobr>רביעי – 4 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:473.457092px"><nobr>(13:30) </nobr></span></p></span></td><td height = "87.409973" width="158.883820" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:25.860922px;left:675.441284px"><nobr>שלישי -3 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:680.362427px"><nobr>(12:45) </nobr></span></p></span></td><td height = "87.409973" width="157.457947" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:895.172546px"><nobr>שני – 2 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:891.753723px"><nobr>(13:30) </nobr></span></p></span></td><td height = "87.409973" width="158.943970" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:18.000000px;font-weight:bold;color:#002060;"><p dir="rtl"><span style="position:absolute;top:24.732910px;left:1093.603882px"><nobr>ראשון – 1 </nobr></span></p><p><span style="position:absolute;top:84.420898px;left:1102.018188px"><nobr>(13:30) </nobr></span></p></span></td><td height = "87.409973" width="32.158752" rowspan="1" colspan="1"></td></tr><tr><td height = "145.741821" width="160.149536" rowspan="1" colspan="1"></td><td height = "145.741821" width="148.317780" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:122.034264px;left:257.084473px"><nobr>הבנת הנקרא </nobr></span></p></span></td><td height = "145.741821" width="151.714264" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:123.314293px;left:447.253540px"><nobr>זהירות בדרכים </nobr></span></p><p dir="rtl"><span style="position:absolute;top:147.314285px;left:434.738617px"><nobr>בצעד ראשון - חסר </nobr></span></p></span></td><td height = "145.741821" width="158.883820" rowspan="1" colspan="1"></td><td height = "145.741821" width="157.457947" rowspan="1" colspan="1"></td><td height = "145.741821" width="158.943970" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-weight:bold;color:#000000;"><p dir="rtl"><span style="position:absolute;top:123.314293px;left:1063.636475px"><nobr>חינוך מתוך אמונה </nobr></span></p></span></td><td height = "145.741821" width="32.158752" rowspan="1" colspan="1"><span style="font-family:Arial;font-size:15.999998px;font-style:normal;font-weight:normal;color:#000000;"><p><span style="position:absolute;top:140.594315px;left:1263.172363px"><nobr>5 </nobr></span></p></span></td></tr></table></nobr></div>']
+            }
+        },
+        mounted: function() {
+            this.$nextTick(function() {
+                this.pageNum = this.pageDatas.length;
+                this.pageContent = this.pageDatas[0];
+
+                this.setLeftMenuHeight();
+            })
+        },
+        watch: {
+            'currentPage': function(newVal, oldValue) {
+                // console.log('newVal ' + newVal, 'oldValue ' + oldValue);
+                if (newVal) {
+                    this.pageContent = this.pageDatas[this.currentPage - 1];
+                }
+            },
+            'zoomNum': function(newVal, oldValue) {
+                if (newVal) {
+                    this.zoomStyle = {
+                        'transform': 'scale(' + newVal + ')',
+                        '-webkit-transform': 'scale(' + newVal + ')',
+                        '-ms-transform': 'scale(' + newVal + ')',
+                        '-moz-transform': 'scale(' + newVal + ')',
+                        '-o-transform': 'scale(' + newVal + ')'
+                    }
+                }
+            }
+        },
+        methods: {
+            
+            changeCurrentPage: function(methods) {
+                switch (methods) {
+                    case 'first':
+                        this.currentPage = 1;
+                        break;
+                    case 'prev':
+                        if (this.currentPage > 1) {
+                            this.currentPage -= 1;
+                        }
+                        break;
+                    case 'next':
+                        if (this.currentPage < this.pageNum) {
+                            this.currentPage += 1;
+                        }
+                        break;
+                    case 'last':
+                        this.currentPage = this.pageNum;
+                        break;
+                }
+            },
+
+            gotoPage: function(page) {
+                console.log(page);
+                this.currentPage = page;
+            },
+            modifyZoom: function(type) {
+                switch (type) {
+                    case 'in':
+                        if (this.zoomNum < 2) {
+                            // this.zoomNum = (this.zoomNum + 0.1).toFixed(1);
+                            this.zoomNum = (parseFloat(this.zoomNum) + 0.1).toFixed(1);
+                        }
+                        break;
+                    case 'out':
+                        if (this.zoomNum > 0.5) {
+                            this.zoomNum = (parseFloat(this.zoomNum) - 0.1).toFixed(1);
+                        }
+                        break;
+                    default:
+                        break;
+                }
+                console.log(this.zoomNum);
+            },
+            setLeftMenuHeight: function() {
+                // this.asideHeight = document.body.scrollHeight - 60;
+                this.mainHeight = document.documentElement.clientHeight - 60 - 20;
+                // 60为头部导航高度， 46为menu高度， 40为上下padding
+                this.asideHeight = this.mainHeight - 20 - 46;
+            },
+            changePage: function(page) {
+                this.currentPage = page;
+                // this.pageContent = this.pageDatas[page - 1];
+            },
+            changeLeftMenu: function() {
+                this.ifMenuShow = !this.ifMenuShow;
+            }
+        }
+    });
+
+function gotoPage(page) {
+    console.log(page);
+    app.gotoPage(page);
+}
+
+</script>
+
+</html>

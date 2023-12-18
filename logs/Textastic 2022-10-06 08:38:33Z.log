@@ -1,0 +1,39 @@
+20221006 11:38:33.896 ====== App Launched =======
+20221006 11:38:34.059 Loading external directories
+20221006 11:38:34.059 Found 3 external directories
+20221006 11:38:34.062 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20221006 11:38:34.067 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221006 11:38:34.067 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20221006 11:38:34.073 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20221006 11:38:34.073 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20221006 11:38:34.073 ubiquityIdentityToken fetched in 0.013727s, token: (null)
+20221006 11:38:34.085 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20221006 11:38:34.085 Trying again to resolve 1 external directories.
+20221006 11:38:34.086 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221006 11:38:34.327 applicationWillEnterForegroundNotification:
+20221006 11:38:34.356 Finished loading external directories
+20221006 11:38:34.489 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:38:34.495 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:38:34.510 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:38:34.524 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:38:34.539 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:38:34.543 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:38:34.548 loaded file style.css with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:38:34.605 loaded file script.js with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:38:34.608 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:38:34.623 loaded file 401 Authorization Required.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221006 11:38:39.914 applicationWillResignActiveNotification
+20221006 11:38:41.603 applicationDidEnterBackgroundNotification:
+20221006 11:43:15.198 applicationWillEnterForegroundNotification:
+20221006 11:43:15.306 loaded file Internet_unblock.pdf ~ pixeldrain.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221006 11:43:15.566 presentedItemDidMoveToURL was called for file "1MapLeafletJS/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221006 11:43:15.567 presentedItemDidMoveToURL was called for file "chucha3/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221006 11:43:15.569 presentedItemDidMoveToURL was called for file "gridGrid1/style.css" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221006 11:43:15.572 presentedItemDidMoveToURL was called for file "1MapLeafletJS/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221006 11:43:15.574 presentedItemDidMoveToURL was called for file "gridGrid1/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221006 11:43:15.576 presentedItemDidMoveToURL was called for file "1MapLeafletJS/script.js" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221006 11:43:15.579 presentedItemDidMoveToURL was called for file "1MapLeafletJS/indexMapLeafletjs.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221006 11:43:15.580 presentedItemDidMoveToURL was called for file "firebaseApi/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221006 11:43:15.582 presentedItemDidMoveToURL was called for file "chucha/index.html" stored in Local Files although it wasn't moved, ignoring (FB7547846)
+20221006 11:43:25.155 applicationWillResignActiveNotification
+20221006 11:43:25.909 applicationDidEnterBackgroundNotification:

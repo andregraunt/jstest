@@ -1,0 +1,21 @@
+20221129 16:05:48.267 ====== App Launched =======
+20221129 16:05:48.372 Loading external directories
+20221129 16:05:48.372 Found 3 external directories
+20221129 16:05:48.374 Trying to resolve external directory 1mdb5 with uuid 5669F493-9AA8-459E-87B6-8E5963F44690
+20221129 16:05:48.377 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221129 16:05:48.377 Trying to resolve external directory site-calc — start code with uuid 935EF38E-01CE-4091-806D-C301634C29C7
+20221129 16:05:48.379 Successfully resolved external directory 935EF38E-01CE-4091-806D-C301634C29C7
+20221129 16:05:48.379 Trying to resolve external directory dmitriyLavrikJs with uuid 384C1A37-815A-4454-929A-980BE5354A29
+20221129 16:05:48.380 ubiquityIdentityToken fetched in 0.007454s, token: (null)
+20221129 16:05:48.384 Successfully resolved external directory 384C1A37-815A-4454-929A-980BE5354A29
+20221129 16:05:48.384 Trying again to resolve 1 external directories.
+20221129 16:05:48.384 ❌ RecentFile resolvedURL: - Could not resolve security-scoped bookmark: Error Domain=NSCocoaErrorDomain Code=257 "The file couldn’t be opened because you don’t have permission to view it."
+20221129 16:05:48.526 applicationWillEnterForegroundNotification:
+20221129 16:05:48.544 Finished loading external directories
+20221129 16:05:48.675 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221129 16:05:48.682 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221129 16:05:48.683 loaded file index.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221129 16:05:48.702 loaded file indexMapLeafletjs.html with encoding: Unicode (UTF-8) and line endings: Unix (LF)
+20221129 16:05:48.775 loaded file Как выглядит джейлбрейк iPhone в 2022 году. Взлом вышел на новый уровень.html with encoding: Unicode (UTF-8) and line endings: Windows (CRLF)
+20221129 16:06:16.745 applicationWillResignActiveNotification
+20221129 16:06:20.618 applicationDidEnterBackgroundNotification:
